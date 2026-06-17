@@ -1,7 +1,6 @@
 # Smart Parking System
 
-A **Java Servlet** developed as a part of JAVA and Database Management System course.
-A very simple coding and design pattern has ben used to autoate the browsing through the parking lots, checking out empty spots, finding out whether it is available for advance booking, etc and fare calculation.
+A very simple coding and design pattern has ben used to automate the browsing through the parking lots, checking out empty spots, finding out whether it is available for advance booking, etc and fare calculation.
 
 ## Technologies used:
 - Front end: HTML5, Javascript, Bootstrap and CSS3
