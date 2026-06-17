@@ -1,0 +1,205 @@
+# Smart Parking Management System
+
+## Abstract
+
+The Smart Parking System is a web-based application developed using Java Servlets, JSP, MySQL, HTML, CSS, JavaScript, and Apache Tomcat. The system aims to simplify parking management by allowing users to search for available parking spaces, make bookings, and calculate parking charges automatically. The application provides an efficient solution for reducing the time spent searching for parking spots and improves overall parking lot utilization. The project was developed as part of a Java and Database Management System course.
+
+---
+
+# 1. Introduction
+
+With the increasing number of vehicles in urban areas, finding available parking spaces has become a significant challenge. Traditional parking systems often result in traffic congestion, wasted fuel, and frustration for drivers. The Smart Parking System addresses these issues by providing an online platform where users can view parking availability, reserve parking spots, and manage bookings efficiently.
+
+The system automates parking slot management and provides real-time information regarding parking availability, making the parking process more convenient and user-friendly.
+
+---
+
+# 2. Objectives
+
+* To automate the parking management process.
+* To provide users with information about available parking slots.
+* To enable advance parking reservations.
+* To reduce the time required to find parking spaces.
+* To automate parking fare calculation.
+* To improve parking lot utilization and management efficiency.
+
+---
+
+# 3. Technologies Used
+
+| Technology    | Purpose                |
+| ------------- | ---------------------- |
+| Java          | Backend Development    |
+| Java Servlets | Business Logic         |
+| JSP           | Dynamic Web Pages      |
+| HTML5         | User Interface         |
+| CSS3          | Styling                |
+| Bootstrap     | Responsive Design      |
+| JavaScript    | Client-side Validation |
+| MySQL         | Database Management    |
+| Apache Tomcat | Web Server             |
+
+The project uses Java Servlets as the backend, MySQL as the database, and HTML/CSS/JavaScript for the frontend interface.
+
+---
+
+# 4. System Architecture
+
+The system follows a three-tier architecture:
+
+### Presentation Layer
+
+* JSP Pages
+* HTML
+* CSS
+* JavaScript
+
+### Business Layer
+
+* Java Servlets
+* Request Processing
+* Validation Logic
+
+### Database Layer
+
+* MySQL Database
+* User Information
+* Parking Lot Data
+* Booking Information
+
+---
+
+# 5. Functional Modules
+
+## 5.1 User Registration and Login
+
+Users can create an account and securely log in to access parking services.
+
+### Features:
+
+* User Registration
+* User Authentication
+* Session Management
+
+---
+
+## 5.2 Parking Lot Browsing
+
+Users can browse available parking locations and view parking slot availability.
+
+### Features:
+
+* Search Parking Areas
+* View Available Slots
+* Parking Lot Details
+
+---
+
+## 5.3 Current Booking
+
+Users can book currently available parking slots instantly.
+
+### Features:
+
+* Real-Time Slot Availability
+* Immediate Reservation
+* Booking Confirmation
+
+---
+
+## 5.4 Future Booking
+
+The system supports advance reservations for specific dates and times.
+
+### Features:
+
+* Schedule Parking
+* Time-Based Reservation
+* Advance Planning
+
+---
+
+## 5.5 Fare Calculation
+
+Parking charges are automatically calculated based on the duration of parking and predefined rates.
+
+### Features:
+
+* Automated Billing
+* Duration-Based Pricing
+* Booking Summary
+
+The repository specifically mentions support for current booking, future booking, and automatic fare calculation.
+
+---
+
+# 6. Database Design
+
+The system stores information such as:
+
+* User Details
+* Parking Lot Information
+* Parking Slot Details
+* Booking Records
+* Payment Information
+
+### Sample Entities
+
+* User
+* ParkingLot
+* ParkingSlot
+* Booking
+* Payment
+
+---
+
+# 7. System Workflow
+
+1. User registers or logs into the system.
+2. User searches for available parking locations.
+3. System displays available parking slots.
+4. User selects a parking slot.
+5. User books the slot immediately or schedules a future booking.
+6. System stores booking information in the database.
+7. Parking charges are calculated automatically.
+8. User completes the parking session.
+
+---
+
+# 8. Advantages
+
+* Easy parking slot management.
+* Reduced parking search time.
+* Support for advance reservations.
+* Automated fare calculation.
+* Improved user convenience.
+* Better parking resource utilization.
+
+---
+
+# 9. Limitations
+
+* Requires internet connectivity.
+* Limited to registered parking lots.
+* Depends on accurate parking slot updates.
+* Does not include real-time sensor integration.
+
+---
+
+# 10. Future Enhancements
+
+* Mobile Application Integration.
+* Online Payment Gateway.
+* QR Code-Based Entry and Exit.
+* GPS Navigation Support.
+* Real-Time IoT Sensor Integration.
+* Parking Analytics Dashboard.
+* AI-Based Parking Recommendation System.
+
+---
+
+# 11. Conclusion
+
+The Smart Parking System provides a practical and efficient solution for managing parking spaces through a web-based platform. It simplifies the process of locating, reserving, and managing parking slots while automating fare calculation. The project demonstrates the effective use of Java Servlets, JSP, MySQL, and web technologies in developing a real-world parking management application.
+
+---
